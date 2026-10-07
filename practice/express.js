@@ -9,7 +9,6 @@ console.log(subtract(3,2));
 app.get("/", (req, res)=>{
     res.send("Hello from home pAGE")
 });
-console.log("hello");
 
 app.post("/", (req, res)=>{
     const {name, age, pass, city}= req.body;
